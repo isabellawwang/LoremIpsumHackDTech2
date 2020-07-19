@@ -261,6 +261,13 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLW-V2-FJ9">
+                                <rect key="frame" x="77" y="262" width="260" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="87D-tf-ZYy" kind="show" id="yxq-in-Uuy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MpV-mW-UUT"/>
@@ -317,6 +324,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Nzq-52-QX6"/>
                     </view>
+                    <navigationItem key="navigationItem" id="uM1-QB-TBW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PBh-ra-PtA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -532,7 +540,7 @@
             <objects>
                 <viewController storyboardIdentifier="Prompt" useStoryboardIdentifierAsRestorationIdentifier="YES" id="s2T-5w-Qjh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="Prompt" id="2iJ-YV-65C">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PromptNami" translatesAutoresizingMaskIntoConstraints="NO" id="VFd-e1-jzo">
@@ -564,7 +572,7 @@
             <objects>
                 <viewController id="JVX-lS-akk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fr1-BI-F3U">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JounrnalNami" translatesAutoresizingMaskIntoConstraints="NO" id="pTp-tC-oLA">
@@ -593,7 +601,7 @@
             <objects>
                 <viewController title="Resource Page" id="mpd-ad-2Oh" customClass="ResourcesViewController" customModule="LoremIpsum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lIz-yf-MNO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="     " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJc-Ga-tc9">
@@ -829,7 +837,7 @@
                 <navigationController id="QyZ-ch-TjQ" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="275-Nv-xth"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Hh1-JW-sN3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -845,7 +853,7 @@
             <objects>
                 <viewController id="xyu-zM-4Nc" customClass="MainForumViewController" customModule="LoremIpsum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jkC-fr-hC8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank 1" translatesAutoresizingMaskIntoConstraints="NO" id="V6e-HG-uPo">
@@ -913,7 +921,7 @@
         <!--Forum View Controller-->
         <scene sceneID="c8T-qb-Pxc">
             <objects>
-                <viewController id="VtQ-9i-Iyf" customClass="ForumViewController" customModule="LoremIpsum" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForumViewController" id="VtQ-9i-Iyf" customClass="ForumViewController" customModule="LoremIpsum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ugO-7O-3aW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -944,10 +952,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxd-k1-IdS">
-                                                    <rect key="frame" x="353" y="11" width="42" height="21"/>
+                                                    <rect key="frame" x="347" y="2" width="59" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>

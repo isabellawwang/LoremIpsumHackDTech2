@@ -265,7 +265,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MpV-mW-UUT"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Explore" id="FaI-ZQ-J1W"/>
+                    <tabBarItem key="tabBarItem" title="Explore" selectedImage="globe" catalog="system" id="FaI-ZQ-J1W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XA5-E8-xgZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -299,6 +299,9 @@
                                 <state key="normal" title="Discussion">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="QyZ-ch-TjQ" kind="show" id="ex7-x5-5Ag"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkw-B4-guy">
                                 <rect key="frame" x="74" y="602" width="266" height="72"/>
@@ -324,7 +327,7 @@
             <objects>
                 <viewController title="Home" id="LaJ-n5-Pra" customClass="HomeViewController" customModule="LoremIpsum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lht-Gk-F6f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="JM6-wm-gvj">
@@ -373,6 +376,7 @@
         <scene sceneID="VZ9-Ej-Lac">
             <objects>
                 <tabBarController id="Wba-8H-For" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dsC-jk-O3V"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="smo-fQ-mvy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -440,6 +444,9 @@
                                 <state key="normal" title="Learn">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Wba-8H-For" kind="show" id="otS-Tj-qs7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85u-Lm-j9X">
                                 <rect key="frame" x="228" y="631" width="166" height="53"/>
@@ -820,8 +827,9 @@
         <scene sceneID="I1i-3P-vol">
             <objects>
                 <navigationController id="QyZ-ch-TjQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="275-Nv-xth"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Hh1-JW-sN3">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -837,7 +845,7 @@
             <objects>
                 <viewController id="xyu-zM-4Nc" customClass="MainForumViewController" customModule="LoremIpsum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jkC-fr-hC8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank 1" translatesAutoresizingMaskIntoConstraints="NO" id="V6e-HG-uPo">
@@ -851,16 +859,13 @@
                                 <color key="separatorColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="22" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="QCell" id="GN0-yw-oot">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="questionTableViewCell" id="GN0-yw-oot" customClass="questionTableViewCell">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GN0-yw-oot" id="a1U-5n-r1c">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="VtQ-9i-Iyf" kind="show" id="0L4-9p-qeb"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -931,7 +936,7 @@
                                 <color key="separatorColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="21" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" id="Ucs-xr-u29">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="answerCell" id="Ucs-xr-u29" customClass="answerCell" customModule="LoremIpsum" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ucs-xr-u29" id="XKl-Rw-Oo6">
@@ -947,6 +952,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lbl" destination="Vxd-k1-IdS" id="wey-LL-QXp"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -983,6 +991,7 @@
                     <navigationItem key="navigationItem" id="w2j-LF-sHB"/>
                     <connections>
                         <outlet property="bttn" destination="ay4-kU-0dX" id="LgS-cf-Zch"/>
+                        <outlet property="questionLabel" destination="N4v-bd-g3f" id="BVj-HT-iHy"/>
                         <outlet property="tView" destination="Rqw-Bv-9Ib" id="gut-mx-WoP"/>
                         <outlet property="text" destination="gT4-Qb-sDn" id="Y1a-rL-tqo"/>
                     </connections>
@@ -2272,7 +2281,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="LgF-kV-GQL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Duc-Jq-3SM">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -2313,13 +2322,14 @@
         <image name="camera" catalog="system" width="64" height="48"/>
         <image name="flat,750x1000,075,f.u1.jpg" width="750" height="920"/>
         <image name="fruitvale-station-poster.jpg" width="737.280029296875" height="1091.52001953125"/>
+        <image name="globe" catalog="system" width="64" height="60"/>
         <image name="headphones" catalog="system" width="64" height="52"/>
         <image name="house.fill" catalog="system" width="64" height="52"/>
         <image name="person.fill" catalog="system" width="64" height="60"/>
         <image name="tv" catalog="system" width="64" height="46"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fzh-6a-4qd"/>
+        <segue reference="6tB-9s-X56"/>
         <segue reference="3ZV-TE-ccj"/>
         <segue reference="3PR-EP-vAI"/>
         <segue reference="BYe-Sc-Ops"/>
@@ -2342,6 +2352,6 @@
         <segue reference="Qah-PG-tcA"/>
         <segue reference="Zv8-9i-dAe"/>
         <segue reference="8aW-e8-ljF"/>
-        <segue reference="Xso-kq-X17"/>
+        <segue reference="IQu-Mp-QCZ"/>
     </inferredMetricsTieBreakers>
 </document>

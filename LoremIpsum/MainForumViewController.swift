@@ -52,11 +52,16 @@ class MainForumViewController: UIViewController,UITableViewDelegate,UITableViewD
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "QCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "questionTableViewCell", for: indexPath)
         cell.textLabel!.numberOfLines = 0
         cell.textLabel!.lineBreakMode = .byWordWrapping
         cell.textLabel!.font = UIFont.systemFont(ofSize: 20.0)
         cell.textLabel?.text = qData[indexPath.row]
         return cell;
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let destVC = storyboard?.instantiateViewController(identifier: "ForumViewController") as? ForumViewController
+        destVC?.question = qData[indexPath.row]
+        self.navigationController?.pushViewController(destVC!, animated: true)
     }
 }

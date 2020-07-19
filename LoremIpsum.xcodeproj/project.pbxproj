@@ -35,6 +35,7 @@
 		F398AC4824C43B2C00968761 /* 53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3C24C43B2B00968761 /* 53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg */; };
 		F398AC4924C43B2C00968761 /* MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3D24C43B2B00968761 /* MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg */; };
 		F398AC4B24C43FC500968761 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F398AC4A24C43FC500968761 /* IntroViewController.swift */; };
+		F398AC5124C48B3F00968761 /* questionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F398AC5024C48B3F00968761 /* questionTableViewCell.swift */; };
 		F3C85A0324C3011F004DBCB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C85A0224C3011F004DBCB4 /* AppDelegate.swift */; };
 		F3C85A0524C3011F004DBCB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C85A0424C3011F004DBCB4 /* SceneDelegate.swift */; };
 		F3C85A0724C3011F004DBCB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C85A0624C3011F004DBCB4 /* ViewController.swift */; };
@@ -74,6 +75,7 @@
 		F398AC3C24C43B2B00968761 /* 53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg"; sourceTree = "<group>"; };
 		F398AC3D24C43B2B00968761 /* MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg"; sourceTree = "<group>"; };
 		F398AC4A24C43FC500968761 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		F398AC5024C48B3F00968761 /* questionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionTableViewCell.swift; sourceTree = "<group>"; };
 		F3C859FF24C3011F004DBCB4 /* LoremIpsum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoremIpsum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C85A0224C3011F004DBCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3C85A0424C3011F004DBCB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				F3C85A0424C3011F004DBCB4 /* SceneDelegate.swift */,
 				F3C85A0624C3011F004DBCB4 /* ViewController.swift */,
 				F3C85A0824C3011F004DBCB4 /* Main.storyboard */,
+				F398AC5024C48B3F00968761 /* questionTableViewCell.swift */,
 				F398AC4A24C43FC500968761 /* IntroViewController.swift */,
 				F398AC2D24C3BFF400968761 /* MainForumViewController.swift */,
 				176BCE5024C3667D00DAD055 /* ForumViewController.swift */,
@@ -319,6 +322,7 @@
 				F3C85A0724C3011F004DBCB4 /* ViewController.swift in Sources */,
 				176BCE5124C3667D00DAD055 /* ForumViewController.swift in Sources */,
 				F3C85A0324C3011F004DBCB4 /* AppDelegate.swift in Sources */,
+				F398AC5124C48B3F00968761 /* questionTableViewCell.swift in Sources */,
 				176BCE4B24C3661E00DAD055 /* ProfileViewController.swift in Sources */,
 				176BCE4724C365F500DAD055 /* HomeViewController.swift in Sources */,
 				F3C85A0524C3011F004DBCB4 /* SceneDelegate.swift in Sources */,

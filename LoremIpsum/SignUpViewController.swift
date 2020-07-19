@@ -9,6 +9,7 @@
 import UIKit
 import FirebaseDatabase
 
+var globalUsername = ""
 class SignUpViewController: UIViewController {
     
     @IBOutlet weak var username: UITextField!

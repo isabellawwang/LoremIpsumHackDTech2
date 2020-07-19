@@ -19,11 +19,21 @@
 		176BCE4F24C3666100DAD055 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176BCE4E24C3666100DAD055 /* SettingsViewController.swift */; };
 		176BCE5124C3667D00DAD055 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176BCE5024C3667D00DAD055 /* ForumViewController.swift */; };
 		176BCE5324C3668700DAD055 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176BCE5224C3668700DAD055 /* ResourcesViewController.swift */; };
-		17E785DC24C3DB55007AABB6 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 17E785DB24C3DB55007AABB6 /* Resources */; };
-		17E785DE24C3DF63007AABB6 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E785DD24C3DF63007AABB6 /* 3.png */; };
 		BA1C713CA87823118897ABA9 /* Pods_LoremIpsum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBCB22F9071C3B1BF2DF2AD /* Pods_LoremIpsum.framework */; };
-		F398AC2C24C3BE1700968761 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F398AC2B24C3BE1700968761 /* GoogleService-Info.plist */; };
 		F398AC2E24C3BFF400968761 /* MainForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F398AC2D24C3BFF400968761 /* MainForumViewController.swift */; };
+		F398AC3024C43A2C00968761 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F398AC2F24C43A2C00968761 /* GoogleService-Info.plist */; };
+		F398AC3E24C43B2C00968761 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3224C43B2B00968761 /* download.jpeg */; };
+		F398AC3F24C43B2C00968761 /* MentAlly.png in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3324C43B2B00968761 /* MentAlly.png */; };
+		F398AC4024C43B2C00968761 /* flat,750x1000,075,f.u1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3424C43B2B00968761 /* flat,750x1000,075,f.u1.jpg */; };
+		F398AC4124C43B2C00968761 /* fruitvale-station-poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3524C43B2B00968761 /* fruitvale-station-poster.jpg */; };
+		F398AC4224C43B2C00968761 /* Artwork - WTSU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3624C43B2B00968761 /* Artwork - WTSU.jpg */; };
+		F398AC4324C43B2C00968761 /* MV5BMjAwMjU5NTAzOF5BMl5BanBnXkFtZTgwMjQwODQxMDI@._V1_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3724C43B2B00968761 /* MV5BMjAwMjU5NTAzOF5BMl5BanBnXkFtZTgwMjQwODQxMDI@._V1_.jpg */; };
+		F398AC4424C43B2C00968761 /* NPR_Code_Switch_cover_art.png in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3824C43B2B00968761 /* NPR_Code_Switch_cover_art.png */; };
+		F398AC4524C43B2C00968761 /* 268x0w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3924C43B2B00968761 /* 268x0w.jpg */; };
+		F398AC4624C43B2C00968761 /* transparentlogo.svg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3A24C43B2B00968761 /* transparentlogo.svg */; };
+		F398AC4724C43B2C00968761 /* 71T+OLf3zdL._AC_SY606_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3B24C43B2B00968761 /* 71T+OLf3zdL._AC_SY606_.jpg */; };
+		F398AC4824C43B2C00968761 /* 53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3C24C43B2B00968761 /* 53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg */; };
+		F398AC4924C43B2C00968761 /* MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F398AC3D24C43B2B00968761 /* MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg */; };
 		F3C85A0324C3011F004DBCB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C85A0224C3011F004DBCB4 /* AppDelegate.swift */; };
 		F3C85A0524C3011F004DBCB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C85A0424C3011F004DBCB4 /* SceneDelegate.swift */; };
 		F3C85A0724C3011F004DBCB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C85A0624C3011F004DBCB4 /* ViewController.swift */; };
@@ -45,13 +55,23 @@
 		176BCE4E24C3666100DAD055 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		176BCE5024C3667D00DAD055 /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
 		176BCE5224C3668700DAD055 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
-		17E785DB24C3DB55007AABB6 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
-		17E785DD24C3DF63007AABB6 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = Screens/3.png; sourceTree = "<group>"; };
 		1A2EA0967C56ED772ADB8B42 /* Pods-LoremIpsum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoremIpsum.debug.xcconfig"; path = "Target Support Files/Pods-LoremIpsum/Pods-LoremIpsum.debug.xcconfig"; sourceTree = "<group>"; };
 		1BBCB22F9071C3B1BF2DF2AD /* Pods_LoremIpsum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoremIpsum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7D38CF3149C53F2C1B55D5 /* Pods-LoremIpsum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoremIpsum.release.xcconfig"; path = "Target Support Files/Pods-LoremIpsum/Pods-LoremIpsum.release.xcconfig"; sourceTree = "<group>"; };
-		F398AC2B24C3BE1700968761 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F398AC2D24C3BFF400968761 /* MainForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainForumViewController.swift; sourceTree = "<group>"; };
+		F398AC2F24C43A2C00968761 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F398AC3224C43B2B00968761 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		F398AC3324C43B2B00968761 /* MentAlly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MentAlly.png; sourceTree = "<group>"; };
+		F398AC3424C43B2B00968761 /* flat,750x1000,075,f.u1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flat,750x1000,075,f.u1.jpg"; sourceTree = "<group>"; };
+		F398AC3524C43B2B00968761 /* fruitvale-station-poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fruitvale-station-poster.jpg"; sourceTree = "<group>"; };
+		F398AC3624C43B2B00968761 /* Artwork - WTSU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Artwork - WTSU.jpg"; sourceTree = "<group>"; };
+		F398AC3724C43B2B00968761 /* MV5BMjAwMjU5NTAzOF5BMl5BanBnXkFtZTgwMjQwODQxMDI@._V1_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MV5BMjAwMjU5NTAzOF5BMl5BanBnXkFtZTgwMjQwODQxMDI@._V1_.jpg"; sourceTree = "<group>"; };
+		F398AC3824C43B2B00968761 /* NPR_Code_Switch_cover_art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NPR_Code_Switch_cover_art.png; sourceTree = "<group>"; };
+		F398AC3924C43B2B00968761 /* 268x0w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 268x0w.jpg; sourceTree = "<group>"; };
+		F398AC3A24C43B2B00968761 /* transparentlogo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = transparentlogo.svg; sourceTree = "<group>"; };
+		F398AC3B24C43B2B00968761 /* 71T+OLf3zdL._AC_SY606_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "71T+OLf3zdL._AC_SY606_.jpg"; sourceTree = "<group>"; };
+		F398AC3C24C43B2B00968761 /* 53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg"; sourceTree = "<group>"; };
+		F398AC3D24C43B2B00968761 /* MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg"; sourceTree = "<group>"; };
 		F3C859FF24C3011F004DBCB4 /* LoremIpsum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoremIpsum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C85A0224C3011F004DBCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3C85A0424C3011F004DBCB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,15 +111,32 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F398AC3124C43B2B00968761 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				F398AC3224C43B2B00968761 /* download.jpeg */,
+				F398AC3324C43B2B00968761 /* MentAlly.png */,
+				F398AC3424C43B2B00968761 /* flat,750x1000,075,f.u1.jpg */,
+				F398AC3524C43B2B00968761 /* fruitvale-station-poster.jpg */,
+				F398AC3624C43B2B00968761 /* Artwork - WTSU.jpg */,
+				F398AC3724C43B2B00968761 /* MV5BMjAwMjU5NTAzOF5BMl5BanBnXkFtZTgwMjQwODQxMDI@._V1_.jpg */,
+				F398AC3824C43B2B00968761 /* NPR_Code_Switch_cover_art.png */,
+				F398AC3924C43B2B00968761 /* 268x0w.jpg */,
+				F398AC3A24C43B2B00968761 /* transparentlogo.svg */,
+				F398AC3B24C43B2B00968761 /* 71T+OLf3zdL._AC_SY606_.jpg */,
+				F398AC3C24C43B2B00968761 /* 53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg */,
+				F398AC3D24C43B2B00968761 /* MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg */,
+			);
+			path = library;
+			sourceTree = SOURCE_ROOT;
+		};
 		F3C859F624C3011F004DBCB4 = {
 			isa = PBXGroup;
 			children = (
 				F3C85A0124C3011F004DBCB4 /* LoremIpsum */,
 				F3C85A0024C3011F004DBCB4 /* Products */,
-				17E785DD24C3DF63007AABB6 /* 3.png */,
 				68A7B5C7DF5FC67C37F6D946 /* Pods */,
 				1F32BC2A8ADBA920D1C2D281 /* Frameworks */,
-				17E785DB24C3DB55007AABB6 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,8 +170,9 @@
 				176BCE3C24C3607500DAD055 /* LoginViewController.swift */,
 				F3C85A0B24C30122004DBCB4 /* Assets.xcassets */,
 				F3C85A0D24C30122004DBCB4 /* LaunchScreen.storyboard */,
-				F398AC2B24C3BE1700968761 /* GoogleService-Info.plist */,
+				F398AC2F24C43A2C00968761 /* GoogleService-Info.plist */,
 				F3C85A1024C30122004DBCB4 /* Info.plist */,
+				F398AC3124C43B2B00968761 /* library */,
 			);
 			path = LoremIpsum;
 			sourceTree = "<group>";
@@ -199,12 +237,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F398AC4024C43B2C00968761 /* flat,750x1000,075,f.u1.jpg in Resources */,
+				F398AC4624C43B2C00968761 /* transparentlogo.svg in Resources */,
+				F398AC4324C43B2C00968761 /* MV5BMjAwMjU5NTAzOF5BMl5BanBnXkFtZTgwMjQwODQxMDI@._V1_.jpg in Resources */,
 				F3C85A0F24C30122004DBCB4 /* LaunchScreen.storyboard in Resources */,
-				F398AC2C24C3BE1700968761 /* GoogleService-Info.plist in Resources */,
 				F3C85A0C24C30122004DBCB4 /* Assets.xcassets in Resources */,
-				17E785DE24C3DF63007AABB6 /* 3.png in Resources */,
+				F398AC4824C43B2C00968761 /* 53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg in Resources */,
+				F398AC4524C43B2C00968761 /* 268x0w.jpg in Resources */,
+				F398AC3E24C43B2C00968761 /* download.jpeg in Resources */,
+				F398AC3F24C43B2C00968761 /* MentAlly.png in Resources */,
+				F398AC3024C43A2C00968761 /* GoogleService-Info.plist in Resources */,
+				F398AC4424C43B2C00968761 /* NPR_Code_Switch_cover_art.png in Resources */,
+				F398AC4124C43B2C00968761 /* fruitvale-station-poster.jpg in Resources */,
+				F398AC4224C43B2C00968761 /* Artwork - WTSU.jpg in Resources */,
+				F398AC4924C43B2C00968761 /* MV5BZjEwN2Y4YTAtMzhlZi00MjRkLWI3YTctODVhNWZkNzQwZGIwXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY1200_CR85,0,630,1200_AL_.jpg in Resources */,
 				F3C85A0A24C3011F004DBCB4 /* Main.storyboard in Resources */,
-				17E785DC24C3DB55007AABB6 /* Resources in Resources */,
+				F398AC4724C43B2C00968761 /* 71T+OLf3zdL._AC_SY606_.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

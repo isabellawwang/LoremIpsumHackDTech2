@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QyZ-ch-TjQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wba-8H-For">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -195,13 +195,9 @@
             <objects>
                 <viewController title="Home" id="LaJ-n5-Pra" customClass="HomeViewController" customModule="LoremIpsum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lht-Gk-F6f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="ce8-5X-Ujn">
-                                <rect key="frame" x="0.0" y="74" width="414" height="739"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUw-5A-6zG">
                                 <rect key="frame" x="54" y="477" width="319" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2081,7 +2077,6 @@
     </scenes>
     <resources>
         <image name="268x0w.jpg" width="268" height="268"/>
-        <image name="3.png" width="810" height="1440"/>
         <image name="53f49cf7-ba1b-4b0c-8651-6c49ea593d8b_square__DH_tagline__dark_gray_gradient_bg.jpg" width="3000" height="3000"/>
         <image name="71T+OLf3zdL._AC_SY606_.jpg" width="444" height="606"/>
         <image name="About" width="405" height="720"/>
@@ -2131,6 +2126,6 @@
         <segue reference="Qah-PG-tcA"/>
         <segue reference="Zv8-9i-dAe"/>
         <segue reference="fzh-6a-4qd"/>
-        <segue reference="C8V-qM-43t"/>
+        <segue reference="Xso-kq-X17"/>
     </inferredMetricsTieBreakers>
 </document>

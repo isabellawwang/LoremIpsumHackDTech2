@@ -1,4 +1,10 @@
-Purpose of the app: Building better allies by targeting people's unconscious bias against the black community using CBT. 
+Purpose of the MentAlly app: Building better allies by targeting people's unconscious bias against the black community using CBT. 
+
+Watch Our App Demo: 
+https://youtu.be/19o036wmQ8M
+
+Watch Our App Presentation:
+https://youtu.be/hayADpZzjTY
 
 Features:
 1. A sign up page.
@@ -9,7 +15,4 @@ Features:
   a. People can have different labels describing them if they wish. Such as POC, etc.
 6. A button to call health lines.
 
-
-Possible names: MentAlly, Ally Mind
-
-People: Brianna, Nami, Bilge and Isabella
+Creators: Brianna, Nami, Bilge and Isabella

@@ -8,22 +8,24 @@
 
 import UIKit
 import FirebaseDatabase
-
 class ForumViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
-
+    
+    @IBOutlet weak var bttn: UIButton!
     @IBOutlet weak var text: UITextField!
     @IBOutlet weak var tView: UITableView!
     
     @IBAction func buttonClicked(_ sender: Any) {
         ref?.child("Posts").childByAutoId().setValue(text.text);
     }
-    
+
     var postData = [String]()
     var ref: DatabaseReference?
     var refHandle:DatabaseHandle?
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tView.separatorStyle = UITableViewCell.SeparatorStyle.none
+        bttn.layer.cornerRadius = 10
+        bttn.clipsToBounds = true
+        
 
         
         tView.dataSource = self
@@ -35,7 +37,6 @@ class ForumViewController: UIViewController,UITableViewDataSource, UITableViewDe
             print(snapshot.value)
             
             if let actualPost = post {
-                print("Yes")
                 self.postData.append(actualPost)
                 self.tView.reloadData()
             }
@@ -62,12 +63,12 @@ class ForumViewController: UIViewController,UITableViewDataSource, UITableViewDe
          let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell", for: indexPath)
          cell.textLabel!.numberOfLines = 0
          cell.textLabel!.lineBreakMode = .byWordWrapping
-         cell.textLabel!.font = UIFont.systemFont(ofSize: 14.0)
+         cell.textLabel!.font = UIFont.systemFont(ofSize: 20.0)
          cell.textLabel?.text = postData[indexPath.row]
-         cell.layer.masksToBounds = true
-         cell.layer.cornerRadius = 5
-         cell.layer.borderWidth = 2
-         cell.layer.shadowOffset = CGSize(width: -1, height: 1)
+//         cell.layer.masksToBounds = true
+//         cell.layer.cornerRadius = 5
+//         cell.layer.borderWidth = 2
+//         cell.layer.shadowOffset = CGSize(width: -1, height: 1)
          
          return cell;
          

@@ -7,14 +7,32 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class SignUpViewController: UIViewController {
+    
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
+    
+    @IBAction func createAccount(_ sender: Any) {
+        ref?.child("User").childByAutoId().setValue(username.text);
+        print(username.text)
+    }
+    var postData = [String]()
+    var ref: DatabaseReference?
+    
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        ref = Database.database().reference()
+        
+        
+            }
+          // ...
 
         // Do any additional setup after loading the view.
-    }
+
     
 
     /*

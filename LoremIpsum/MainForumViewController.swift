@@ -11,6 +11,7 @@ import FirebaseDatabase
 
 class MainForumViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
+    @IBOutlet weak var bttn: UIButton!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var tableView: UITableView!
     @IBAction func questionClicked(_ sender: Any) {
@@ -23,17 +24,18 @@ class MainForumViewController: UIViewController,UITableViewDelegate,UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        bttn.layer.cornerRadius = 10
+        bttn.clipsToBounds = true
         tableView.dataSource = self
         tableView.delegate = self
         ref = Database.database().reference()
-        self.tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
+        
 
         refHandle = ref?.child("Questions").observe(.childAdded, with: { (snapshot) in
             let post = snapshot.value as? String
             print(snapshot.value)
             
             if let actualPost = post {
-                print("Yes")
                 self.qData.append(actualPost)
                 self.tableView.reloadData()
             }
@@ -53,7 +55,7 @@ class MainForumViewController: UIViewController,UITableViewDelegate,UITableViewD
         let cell = tableView.dequeueReusableCell(withIdentifier: "QCell", for: indexPath)
         cell.textLabel!.numberOfLines = 0
         cell.textLabel!.lineBreakMode = .byWordWrapping
-        cell.textLabel!.font = UIFont.systemFont(ofSize: 14.0)
+        cell.textLabel!.font = UIFont.systemFont(ofSize: 20.0)
         cell.textLabel?.text = qData[indexPath.row]
         return cell;
     }

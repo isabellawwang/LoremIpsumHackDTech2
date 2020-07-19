@@ -17,7 +17,7 @@ class SignUpViewController: UIViewController {
     
     @IBAction func createAccount(_ sender: Any) {
         ref?.child("User").childByAutoId().setValue(username.text);
-        print(username.text)
+        globalUsername = username.text!
     }
     var postData = [String]()
     var ref: DatabaseReference?
